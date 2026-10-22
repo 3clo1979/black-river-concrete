@@ -13,3 +13,9 @@
 .location{top:183px}
 @media(min-width:701px) and (max-width:950px){.logo{width:300px}header>nav:not(#mobile-nav){gap:18px;font-size:12px}}
 @media(max-width:700px){.logo{width:clamp(190px,60vw,260px)}header{align-items:center}.location{top:151px}.shade{background:linear-gradient(180deg,#080b09f5 0%,#080b09db 105px,#10171070 235px,#12171200 47%,#121712e6 100%)}#mobile-nav{top:120px}}
+/* Softer bronze for the preview form only; white text contrast 5.17:1. */
+#preview-request{background:#806a45;color:#fff;border:1px solid #a18b65;transition:background-color .15s ease,border-color .15s ease}
+#preview-request:hover{background:#725c3b;border-color:#c0ab84}
+#preview-request:focus-visible{outline:3px solid #fff;outline-offset:4px;background:#725c3b}
+#preview-request:active{background:#665132}
+@media(prefers-reduced-motion:reduce){#preview-request{transition:none}}
