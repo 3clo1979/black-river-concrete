@@ -7,3 +7,9 @@
 .form-notice{border-left:2px solid #d3b777;padding-left:15px;font-size:12px;line-height:1.6;margin-bottom:30px}.form-notice strong{display:block;color:#d3b777;margin-bottom:5px}.form-notice span{color:#c1c4b8}
 /* Editorial line lengths and footer clearance after live visual review. */
 .statement h2{text-transform:uppercase;font-size:clamp(36px,3.5vw,62px);line-height:1}.contact h2{font-size:clamp(60px,6vw,100px)}footer{flex-wrap:wrap;gap:16px}footer span:last-child{flex-basis:100%}@media(max-width:700px){.statement h2{font-size:clamp(30px,8.6vw,44px)}.contact h2{font-size:clamp(48px,12vw,66px)}}
+/* Brand-first opening: quiet the photo behind the original mark. */
+.logo{width:350px;flex:0 0 auto;filter:drop-shadow(0 3px 16px #0008)}
+.shade{background:linear-gradient(180deg,#080b09f5 0%,#080b09d9 120px,#10171080 245px,#12171200 43%,#121712d9 100%)}
+.location{top:183px}
+@media(min-width:701px) and (max-width:950px){.logo{width:300px}header>nav:not(#mobile-nav){gap:18px;font-size:12px}}
+@media(max-width:700px){.logo{width:clamp(190px,60vw,260px)}header{align-items:center}.location{top:151px}.shade{background:linear-gradient(180deg,#080b09f5 0%,#080b09db 105px,#10171070 235px,#12171200 47%,#121712e6 100%)}#mobile-nav{top:120px}}
