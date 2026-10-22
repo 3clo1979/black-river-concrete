@@ -5,3 +5,5 @@
 @media(max-width:700px){header>nav:not(#mobile-nav){display:none}.menu-toggle{display:block;background:transparent;color:white;border:1px solid #ccc8;padding:10px 13px;font-size:12px}.menu-toggle span{margin-left:10px}#mobile-nav{display:block}#mobile-nav a{display:block!important}.contact .form-row{display:block}.contact{padding-bottom:100px}.discuss{padding-bottom:calc(15px + env(safe-area-inset-bottom))}h1{font-size:clamp(42px,11.5vw,78px)}.opening-bottom{width:88%}}
 
 .form-notice{border-left:2px solid #d3b777;padding-left:15px;font-size:12px;line-height:1.6;margin-bottom:30px}.form-notice strong{display:block;color:#d3b777;margin-bottom:5px}.form-notice span{color:#c1c4b8}
+/* Editorial line lengths and footer clearance after live visual review. */
+.statement h2{text-transform:uppercase;font-size:clamp(36px,3.5vw,62px);line-height:1}.contact h2{font-size:clamp(60px,6vw,100px)}footer{flex-wrap:wrap;gap:16px}footer span:last-child{flex-basis:100%}@media(max-width:700px){.statement h2{font-size:clamp(30px,8.6vw,44px)}.contact h2{font-size:clamp(48px,12vw,66px)}}
