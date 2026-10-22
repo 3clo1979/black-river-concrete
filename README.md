@@ -19,3 +19,17 @@ Project photographs are user-provided originals. Their image bytes have not been
 
 ## Verification
 JavaScript syntax, local links and assets, unique IDs, photo integrity, and mocked DOM behavior checks passed. Desktop/mobile browser rendering remains unverified due to execution-environment restrictions. No live hosting has been configured.
+
+## Cloudflare Workers setup
+Connect this GitHub repository in Workers & Pages (Create application / Import a repository). Use:
+- Project / Worker name: `black-river-concrete`
+- Production branch: `main`
+- Root directory: `/` (repository root)
+- Build command: `node scripts/build.mjs`
+- Deploy command: `npx wrangler deploy`
+- Non-production / preview deploy command, if requested: `npx wrangler versions upload`
+- Variables and secrets: none for this static site
+
+`wrangler.jsonc` serves only `dist`, which the build script fills with the website files and assets. Do not choose a framework template. Keep the existing free plan; no domain or paid add-on is needed for the default workers.dev address. This configuration does not itself establish an authenticated Cloudflare deployment.
+
+Local development after installing/authenticating Wrangler: `node scripts/build.mjs && npx wrangler dev`. The form remains a preview and never submits inquiries.
