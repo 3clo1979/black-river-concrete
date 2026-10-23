@@ -22,3 +22,5 @@
 
 /* Original truck artwork shown through a viewport; source pixels are unchanged. */
 .brand-interlude{background:#222722;padding:75px 4% 30px;color:#d5d4cb}.brand-interlude figure{max-width:1440px;margin:auto}.brand-interlude svg{display:block;width:100%;height:auto;aspect-ratio:1290/397;overflow:hidden}.brand-interlude figcaption{display:flex;justify-content:space-between;gap:18px;padding-top:15px;font-size:12px}.brand-interlude figcaption span:first-child{letter-spacing:1.5px;font-size:10px}.brand-interlude figcaption span:last-child{font-size:12px;letter-spacing:0}@media(max-width:700px){.brand-interlude{padding:45px 0 5px}.brand-interlude figcaption{padding:15px 6% 0;flex-wrap:wrap}.brand-interlude figcaption span{display:inline}}
+
+.brand-interlude img{display:block;width:100%;height:auto;object-fit:contain}
